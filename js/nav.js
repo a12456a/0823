@@ -1,0 +1,20 @@
+$(document).ready(function(){
+            $(".hambuger").click(function(){
+                $(".header_nav").slideToggle();
+            });
+            $(window).resize(function(){
+                if(window.innerWidth>=1260){
+                    $(".header_nav").show();
+                }
+            });
+            $(window).resize(function(){
+                if(window.innerWidth>=600&&window.innerWidth<=1259){
+                    $(".header_nav").hide();
+                }
+            });
+            $(window).resize(function(){
+                if(window.innerWidth<=599){
+                    $(".header_nav").hide();
+                }
+            });
+        });

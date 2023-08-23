@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+        @media (max-width:599px){
+        /*헤더*/
+
+        #header {width:100%; position:fixed; top:0; right:0; left:0; z-index: 100;}
+
+        #header_box > .small {display:flex; width:100%; height:40px; background-color: #ff5f00; justify-content: space-between; align-items: center; opacity: 0.9; margin:0; padding:0; z-index: 100;}
+        #header_box > .small > #logo {font-size:20px;  font-weight: bold; width:150px; font-family: 'Secular One', sans-serif; }
+        #header_box > .small > #logo > a {text-decoration: none; color:#fff;}
+        #header_box > .small > img {width:30px; height:15px;}
+        #header_box > .small > img:hover{cursor: pointer;}
+        .header_nav {display:block; background-color: #ff5f00; opacity: 0.9;}
+        .header_nav ul{display: flex; flex-direction: column;}
+        .header_nav ul li a {text-decoration: none; color:#fff; font-family: 'Secular One', sans-serif; margin:0 60px 0 0px; padding:25px; font-size: 17px; display: block;}
+        .header_nav ul li:hover {background-color:rgb(248, 232, 218);}
+        .header_nav ul li a:hover {color:#333;}
+
+        /*풋터*/
+        footer {width:100%; height:800px; background-color:#ff5f00; display: flex; flex-direction: column; justify-content: space-around; }
+        .footer_navbox {width:90%; height: 50%;}
+        #family_sites {width:100%; height:30px; font-family: 'Secular One', sans-serif; line-height: 23px; margin:10px 0px; border-bottom:1px solid #fff; font-size:22px; color:#fff; padding-top: 50px;}
+        #footer_nav {width:100%; height:300px; margin:30px auto; display:flex; flex-wrap:wrap;}
+        #footer_nav > ul {width:100%; height:110px; font-size: 18px; display:flex; flex-wrap: wrap; margin-left: -20px;}
+        #footer_nav > ul:nth-of-type(2) {margin-top:-90px;}
+        footer > #footer_nav > ul > li:nth-of-type(4){border-right:none;}
+        #footer_nav > ul > li >a {text-decoration: none; color:#fff;  padding:0px 20px; border-right:1px solid #fff; font-weight: bold; letter-spacing:-1px;}
+        
+
+        #footer_bottom {width:90%; height:300px; display: flex;  flex-direction: column; justify-content: space-around; margin-top:60px;}
+        #footer_bottom > #footer_logo {font-family: 'Secular One', sans-serif; margin:0px; padding: 0; font-size: 72px; letter-spacing:-1px; color:#fff; font-weight: bold;}
+        #footer_bottom > .adress {font-size: 13px; width:100%; color:#fff; margin:0px; margin-top: -60px; padding:0; font-weight: bold;}
+        #footer_bottom > .sns {width:150px; height:30px; display: flex; justify-content: space-between; margin:0;} 
+        #footer_bottom > .sns > img {width:30px; height:25px;}
+        }

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@media (min-width:1260px){
+        /*헤더*/
+        #header {width:100%; height:40px; position:fixed; top:0; right:0; left:0; background-color: #ff5f00; z-index: 100;}
+        header > #header > #header_box {width:1120px; height: 100%; margin:0 auto; display:flex; align-items:center;}
+
+        #header_box > .small > #logo {font-size:20px; font-weight: bold; width:150px; font-family: 'Secular One', sans-serif;}
+        #header_box > .small > #logo > a {text-decoration: none;  color:#fff;}
+        #header_box > .small > img {width:40px; height:30px;}
+        #header_box > .small > img  {display:none;}
+        .header_nav ul{display: flex;}
+        .header_nav ul li a {text-decoration: none; color:#fff; font-family: 'Secular One', sans-serif; margin:0 60px 0 0px; font-size: 15px;}
+
+        
+
+        /*풋터*/
+        footer {width:100%; height:500px; background-color:#ff5f00; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        .footer_navbox {width:1120px; height:200px;  display:flex; flex-direction: row-reverse; align-items: center; margin-top: 20px; }
+        #footer_nav {width:800px; height:80px; margin:0 auto; display:flex; flex-wrap:wrap; margin-left: 0;}
+        #footer_nav > ul {width:700px; height:30px; font-size: 12px; display:flex;}
+        footer > #footer_nav > ul > li:nth-of-type(4){border-right:none;}
+
+        #footer_nav > ul > li >a {text-decoration: none; color:#fff;  padding:0px 20px; border-right:1px solid #fff; letter-spacing:-1px;}
+        #family_sites {width:200px; height:30px; font-family: 'Secular One', sans-serif; margin-top: -10px; margin-right:0; border-bottom:2px solid #fff; font-size:14px; color:#fff;}
+
+        #footer_bottom {width:1120px; height:300px; display: flex; flex-wrap: wrap;}
+        #footer_bottom > #footer_logo {font-family: 'Secular One', sans-serif; margin:50px 0 -50px 0px; padding: 0; font-size: 150px; letter-spacing:-1px; color:#fff; font-weight: bold;}
+        #footer_bottom > .adress {font-size: 12px; color:#fff; margin:0px; padding:0;}
+        #footer_bottom > .sns {width:150px; height:30px; margin-right:0; display: flex; justify-content: space-between;}
+        #footer_bottom > .sns > img {width:30px; height:25px;}
+        }
