@@ -3,17 +3,17 @@ $(document).ready(function(){
                 $(".header_nav").slideToggle();
             });
             $(window).resize(function(){
-                if(window.innerWidth>=1260){
+                if(window.innerWidth>=1240){
                     $(".header_nav").show();
                 }
             });
             $(window).resize(function(){
-                if(window.innerWidth>=600&&window.innerWidth<=1259){
+                if(window.innerWidth>=768&&window.innerWidth<=1239){
                     $(".header_nav").hide();
                 }
             });
             $(window).resize(function(){
-                if(window.innerWidth<=599){
+                if(window.innerWidth<=767){
                     $(".header_nav").hide();
                 }
             });

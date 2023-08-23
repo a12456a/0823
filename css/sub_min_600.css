@@ -1,49 +1,46 @@
 @charset "utf-8";
 
-@media (min-width:600px) and (max-width:1259px){
-        section {width:100%; height:13000px; display: flex; flex-direction: column;}
+body {overflow-x:scroll; overflow-x: hidden;}
+@media (min-width:768px) and (max-width:1240px){
+        section {width:100%; height:auto; display: flex; flex-direction: column; justify-content: space-between;}
         /*오른쪽*/
-        .main {width:100%; height: 10400px; margin-left: 0; display: flex; flex-direction: column; justify-content: center;}
-        .date {font-size:14px; margin:100px 0 0 20px;}
-        h1 {font-size: 25px; font-weight: bolder; margin:30px 0 30px 20px;}
+        .main {width:100%; height: auto; margin-top:70px; }
+        .date {font-size:14px; margin-left: 40px;}
+        h1 {font-size: 25px; font-weight: bolder; margin:20px 0 0 40px;}
 
-        .first {width:92%; height:auto; margin:40px auto;}
-        .first > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
+        .first {width:92%; height:1300px; margin:40px auto; }
+        .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
         .iframe-wrapper iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
         .first > .text {width:100%; height: 390px; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 25px;}
-        .text >p {margin-left: 0;}
+        .text > p {margin-left: 0;}
         .first > .text > p:nth-of-type(4){margin-right: 0; color:#666;}
         h3 {font-size: 16px; margin-left: 0; color:#000; margin-top:30px; line-height: 25px;}
 
-        .kind {width:92%; height: auto;}
-        .kind > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
-        .iframe-wrapper iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
+        .kind {width:92%; height: auto; }
+        
         .kind > .text {width:100%; height: 470px; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 20px;}
 
         .made_city {width:92%; height: auto; }
         .made_city > .text {width:100%; height: 260px; padding-bottom:30px; display:flex; flex-direction: column; justify-content: center; color:#333; font-size: 14px; line-height: 20px;}
         .made_city > .text > h3 {padding-bottom:30px ;}
         .made_city > .other_size {height: 450px; justify-content: space-evenly; padding-top:20px;}
-        .made_city > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
-        .iframe-wrapper iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
+        
         .made_city > img {width:100%; height: 300px; border-radius: 10px;}
 
         .anyone {width:92%; height: auto;}
-        .anyone > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
-        .iframe-wrapper iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
+        
         .anyone > .text {width:100%; height:380px; padding-bottom:30px; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 20px;}
         .anyone > .other_size {height: 550px; padding-top:20px;}
 
         .specially {width:92%; height: 380px; margin-top:80px;}
         .pippo { width:100%; height: 300px; border-radius: 10px; overflow:hidden;  margin-left: 0; display: flex;}
-        .pippo > .back {width:55%; height: 100%; margin-left: 0; background-image: url("../img/pippo.jpeg"); background-position:center;  background-size: cover; border-radius:10px ;}
+        .pippo > .back {width:55%; height: 100%; margin-left: 0; background-image: url("../img/pippo.jpeg"); background-position:center;  background-size: cover; border-radius:10px;}
         .pippo > .text {width:42%; height: 100%; margin-top:0; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 20px;}
         .pippo > .text >h3 {margin:0; padding:0;}
 
-        .launching {width:92%; height: 2250px;}
+        .launching {width:92%; height: 2000px;}
         .launching > .text {width:100%; height: 430px; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 20px;}
-        .launching > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
-        .iframe-wrapper video {position:absolute; top:0; left:0; width:100%; height:100%;}
+        
         .launching > img {width:100%; height:300px; border-radius: 10px;}
         .launching > .text > p:last-child{margin-left:0 ;}
         .launching > .other_size {height: 260px; margin-left: 0;}
@@ -66,15 +63,14 @@
         .more_button:hover {background-color: #ff5f00;}
         
         /*왼쪽*/
-        .side {width:100%; height: 2470px; display: flex; flex-direction: column; justify-content: space-around;}
+        .side {width:100%; height: 20%; display: flex; flex-direction: column; justify-content: space-around;}
 
-        .side .first_content {width: 93%; height: 60px; margin-top:150px; display: flex; flex-wrap: wrap; align-content: space-between;}
-        .side .first_content .search { width: 100%; height: 60px; display:flex; justify-content: flex-end; flex-direction: row; align-items: center;}
+        .side .first_content {width: 93%; height: 60px; margin:70px auto; display: flex; flex-wrap: wrap; align-content: space-between; }
+        .side .first_content .search { width: 100%; height: 60px; display:flex; justify-content: flex-end; flex-direction: row; align-items: center; }
         .side .first_content .search .text {display: flex; justify-content: center; width: 100%; }
         .side .first_content .search .text input[type="text"] {width:97%; height: 100%; border: none; outline: none; height: 45px; border-radius: 50px; padding:0 0 0 20px; position: relative; z-index: 1; background-color: #ff8200; color:#fff;}
         .search > .text > input::placeholder { color:#fff; font-weight: bold; }
-        .side .first_content .search .email_btn { background-color:#ff8200; font-size: 18px; font-weight: 400 ;padding: 10px 10px; border-radius:50%; border:none;
-        color:#fff; font-weight: bold; word-spacing: 1.5px; position: absolute; z-index: 5; display: flex;}
+        .side .first_content .search .email_btn { background-color:#ff8200; font-size: 18px; font-weight: 400 ;padding: 10px 10px; border-radius:50%; border:none; color:#fff; font-weight: bold; word-spacing: 1.5px; margin-right: 20px; position: absolute; z-index: 5; display: flex;}
         .side .first_content .search .email_btn:hover {cursor: pointer;} 
 
         .booking {width: 92%; height: 660px; background-color:  ivory; display: flex; flex-direction: column; justify-content: space-evenly; border-radius: 15px;}

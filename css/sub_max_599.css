@@ -1,14 +1,14 @@
 @charset "utf-8";
 
-@media (max-width:599px) {
-        section {width:100%; height:11700px; display: flex; flex-direction: column;}
+@media (max-width:767px) {
+        section {width:100%; height:auto; display: flex; flex-direction: column; justify-content: space-between;}
         /*오른쪽*/
-        .main {width:100%; height: 80%; margin-left: 0; display: flex; flex-direction: column; justify-content: center;}
-        .date {font-size:14px; margin:200px 0 0 20px;}
+        .main {width:100%; height: auto; margin-top: 70px; }
+        .date {font-size:14px; margin:0 0 0 20px;}
         h1 {font-size: 20px; font-weight: bolder; margin:30px 0 30px 15px;}
 
         .first {width:92%; height:auto; margin:40px auto;}
-        .first > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
+        .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
         .iframe-wrapper iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
         .first > .text {width:100%; height: 390px; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 25px;}
         .first > .text > p:nth-of-type(4){margin-right: 0; color:#666;}
@@ -39,7 +39,7 @@
         .pippo > .text {width:40%; height: 100%; margin-top:0; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 20px;}
         .pippo > .text >h3 {margin:0; padding:0;}
 
-        .launching {width:92%; height: 2250px;}
+        .launching {width:92%; height: 1800px;}
         .launching > .text {width:100%; height: 430px; display:flex; flex-direction: column; justify-content: space-evenly; color:#333; font-size: 14px; line-height: 20px;}
         .launching > .iframe-wrapper {position:relative; height:0; padding-bottom:56.25%; border-radius: 10px; overflow:hidden;}
         .iframe-wrapper video {position:absolute; top:0; left:0; width:100%; height:100%;}
@@ -47,7 +47,7 @@
         .launching > .text > p:last-child{margin-left:0 ;}
         .launching > .other_size {height: 260px; margin-left: 0;}
 
-        .related {width:90%; height:2000px; display: flex; flex-direction: column; justify-content: space-between; border-top:1px solid #ddd;}
+        .related {width:90%; height:1300px; display: flex; flex-direction: column; justify-content: space-between; border-top:1px solid #ddd;}
         .related > h1 {font-size: 60px; margin-top:60px; margin-left: 0; font-weight: bold; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; color:#ff5f00;}
         #content {width:100%; height:1200px; display:flex; flex-direction: column; justify-content: space-around;}
         #content > .box {width:100%; height:31%; border:1px solid #eee; border-radius: 10px; overflow: hidden; }
@@ -64,23 +64,22 @@
         .more_button:hover {background-color: #ff5f00;}
         
         /*왼쪽*/
-        .side { width:100%; height: 20%; display: flex; flex-direction: column; justify-content: space-around;}
+        .side { width:100%; height: 20%; display: flex; flex-direction: column; justify-content: space-around; }
 
-        .side .first_content {width: 93%; height: 60px; margin-top:150px; display: flex; flex-wrap: wrap; align-content: space-between;}
+        .side .first_content {width: 93%; height: 60px; margin: 200px auto; display: flex; flex-wrap: wrap; align-content: space-between; }
         .side .first_content .search { width: 100%; height: 60px; display:flex; justify-content: flex-end; flex-direction: row; align-items: center;}
         .side .first_content .search .text {display: flex; justify-content: center; width: 100%; }
         .side .first_content .search .text input[type="text"] {width:97%; height: 100%; border: none; outline: none; height: 45px; border-radius: 50px; padding:0 0 0 20px; position: relative; z-index: 1; background-color: #ff8200; color:#fff;}
         .search > .text > input::placeholder { color:#fff; font-weight: bold; }
-        .side .first_content .search .email_btn { background-color:#ff8200; font-size: 18px; font-weight: 400 ;padding: 10px 10px; border-radius:50%; border:none;
-        color:#fff; font-weight: bold; word-spacing: 1.5px; position: absolute; z-index: 5; display: flex;}
+        .side .first_content .search .email_btn { background-color:#ff8200; font-size: 18px; font-weight: 400 ;padding: 10px 10px; border-radius:50%; border:none; color:#fff; font-weight: bold; word-spacing: 1.5px; position: absolute; z-index: 5; display: flex; margin-right:20px;}
         .side .first_content .search .email_btn:hover {cursor: pointer;} 
 
         .booking {width: 92%; height: 460px; background-color:  ivory; display: flex; flex-direction: column; justify-content: space-evenly; border-radius: 15px;}
         .booking >img {width:90%; height: auto; border-bottom: 1px solid #eee; padding-bottom: 40px; margin-top: 40px;}
         .booking_text {width:100%; display: flex; align-items: flex-end; color:#ff5f00; font-size: 28px;}
-        .booking_text > p {font-weight: bold; text-align: center; margin-right:-50px; }
+        .booking_text > p {font-weight: bold; text-align: center; }
 
-        .other_games {width:92%; height: 650px; display: flex; flex-direction: column; justify-content: space-around ;}
+        .other_games {width:92%; height: 650px; margin:60px auto; display: flex; flex-direction: column; justify-content: space-around ;}
         .other_games > h3 {font-size: 40px; margin-left: 10px; letter-spacing: 1px; font-weight: bold; font-family: 'Bebas Neue', sans-serif;}
         .other_games > .game_box {width:100%; height: 160px; background-color: pink;  background-position: center; background-size:cover; border-radius: 10px; display: flex; align-items: flex-end; color:#fff;}
         .ovenback {background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,0.4)), url("../img/sub_cookierun.webp"); margin-left:0 ;}
@@ -89,7 +88,7 @@
         h4 {margin:10px; font-size:20px;}
         
 
-        .tag {width:92%; height: 200px;} 
+        .tag {width:92%; height: 200px; margin:60px auto;} 
         .tag > h3 {font-size: 40px; letter-spacing: 2px; margin-left: 10px; font-weight: bold; font-family: 'Bebas Neue', sans-serif; margin-bottom: 30px;}
         .button {margin:0; padding:0;}
         .button >button{border:none; border-radius: 20px; padding:6px 20px; font-size: 18px; letter-spacing: -1px; background-color: #ff8200; font-family:'Secular One', sans-serif; color:#fff;}
@@ -97,7 +96,7 @@
         .button >button:nth-of-type(5){margin:15px 0 0 0px;}
         .button >button:hover {cursor: pointer;}
         
-        .follow_us {width:92%; height: 180px;}
+        .follow_us {width:92%; height: 180px; }
         .follow_us > h3 {font-size: 40px; margin-left: 10px; letter-spacing: 1px; font-weight: bold; font-family: 'Bebas Neue', sans-serif;  margin-bottom: 30px;}
         .follow_us > .img_box {width:100%; height: auto; display: flex; justify-content: space-between;}
         .follow_us > .img_box> img {width:18%; height:60px;}
