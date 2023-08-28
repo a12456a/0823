@@ -56,7 +56,7 @@
         .left_box > p {font-size:18px; letter-spacing:-1px; margin:0px; padding:0; color:#fff; text-align: center; }
         .left_box > .icon {width:130px; height:40px; display:flex; margin:20px 0px; padding:0 10px;}
         .left_box > .icon > img {width:100%; height:100%;}
-        .right_box {width:220px; height:30px; margin-top:30px;  margin-right:-15px; background-color: #ff5f00;  transform:skew(-10deg); text-align: center; padding-top:13px;}
+        .right_box {width:220px; height:45px; margin-top:30px;  margin-right:-15px; background-color: #ff5f00;  transform:skew(-10deg); text-align: center; padding-top:13px;}
         .right_box > a { color:#fff; text-decoration: none; font-weight: 900; }
 
         #studios {width:90%; height:auto; display: flex; flex-direction: column; justify-content: space-around;}
