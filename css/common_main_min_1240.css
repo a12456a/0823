@@ -17,11 +17,11 @@
         /*풋터*/
         footer {width:100%; height:500px; background-color:#ff5f00; display: flex; flex-direction: column; justify-content: center; align-items: center;}
         .footer_navbox {width:1120px; height:200px;  display:flex; flex-direction: row-reverse; align-items: center; margin-top: 20px; }
-        #footer_nav {width:800px; height:80px; margin:0 auto; display:flex; flex-wrap:wrap; margin-left: 0;}
-        #footer_nav > ul {width:700px; height:30px; font-size: 12px; display:flex;}
+        #footer_nav {width:800px; height:80px; margin:0 auto; margin-left: 0;}
+        #footer_nav > ul {font-size: 14px; display:flex; flex-wrap: wrap; }
         footer > #footer_nav > ul > li:nth-of-type(4){border-right:none;}
 
-        #footer_nav > ul > li >a {text-decoration: none; color:#fff;  padding:0px 20px; border-right:1px solid #fff; letter-spacing:-1px;}
+        #footer_nav > ul > li >a {text-decoration: none; color:#fff;  padding:0px 20px; border-right:1px solid #fff; letter-spacing:-1px; line-height: 35px;}
         #family_sites {width:200px; height:30px; font-family: 'Secular One', sans-serif; margin-top: -10px; margin-right:0; border-bottom:2px solid #fff; font-size:14px; color:#fff;}
 
         #footer_bottom {width:1120px; height:300px; display: flex; flex-wrap: wrap;}

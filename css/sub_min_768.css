@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body {overflow-x:scroll; overflow-x: hidden;}
+
 @media (min-width:767px) and (max-width:1240px){
         section {width:100%; height:auto; display: flex; flex-direction: column; justify-content: space-between;}
         /*오른쪽*/
@@ -58,7 +58,7 @@ body {overflow-x:scroll; overflow-x: hidden;}
         .slider_text > .button >button{border:none; border-radius: 20px; padding:3px 10px; font-size: 14px; background-color: #ff8200; font-family:'Secular One', sans-serif; color:#fff;}
         .slider_text > .button >button:nth-of-type(3){margin:10px 0 0 0px;}
         .slider_text > .button >button:hover {background-color: #ffd500; color:#000;}
-        .button_box {width:1120px; height:50px; margin:30px auto;}
+        .button_box {width:92%; height:50px; margin-left: 0;}
         .more_button {border:none; padding:13px 20px; margin-left:0; border-radius:25px; background-color:#000; color:#fff; font-family:'Secular One', sans-serif; font-weight:bold;}
         .more_button:hover {background-color: #ff5f00;}
         
