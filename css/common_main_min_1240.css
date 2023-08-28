@@ -17,7 +17,7 @@
         /*풋터*/
         footer {width:100%; height:500px; background-color:#ff5f00; display: flex; flex-direction: column; justify-content: center; align-items: center;}
         .footer_navbox {width:1120px; height:200px;  display:flex; flex-direction: row-reverse; align-items: center; margin-top: 20px; }
-        #footer_nav {width:800px; height:80px; margin:0 auto; margin-left: 0;}
+        #footer_nav { width:800px; height:80px; margin:0 auto; margin-left: 0;}
         #footer_nav > ul {font-size: 14px; display:flex; flex-wrap: wrap; }
         footer > #footer_nav > ul > li:nth-of-type(4){border-right:none;}
 
